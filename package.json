@@ -1,0 +1,19 @@
+{
+  "name": "abi-encoder",
+  "version": "1.0.0",
+  "description": "abi-encoder",
+  "main": "index.js",
+  "dependencies": {
+    "bn.js": "^4.11.8",
+    "ethereumjs-abi": "^0.6.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "encode": "./bin/encode.js",
+    "decode": "./bin/decode.js"
+  },
+  "author": "haomingfeng",
+  "license": "ISC"
+}
